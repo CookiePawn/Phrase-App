@@ -1,0 +1,1 @@
+export { default as HEART } from './heart.svg';

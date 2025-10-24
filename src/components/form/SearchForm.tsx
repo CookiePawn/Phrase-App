@@ -26,7 +26,7 @@ const SearchForm: React.FC<SearchFormProps> = ({ searchQuery, setSearchQuery }) 
 const styles = StyleSheet.create({
     searchContainer: {
         width: '100%',
-        marginTop: 10,
+        marginVertical: 10,
     },
     searchInput: {
         backgroundColor: '#F5F5F5',

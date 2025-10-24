@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 import { Dropdown } from 'react-native-element-dropdown';
 
 interface SortDropdownProps {
@@ -20,39 +20,35 @@ const SortDropdown: React.FC<SortDropdownProps> = ({
     ];
 
     return (
-        <View style={styles.container}>
-            <Dropdown
-                style={styles.dropdown}
-                placeholderStyle={styles.placeholderStyle}
-                selectedTextStyle={styles.selectedTextStyle}
-                data={sortOptions}
-                maxHeight={300}
-                labelField="label"
-                valueField="value"
-                placeholder="정렬 선택"
-                value={selectedSort}
-                onChange={(item) => {
-                    onSelectSort(item.value);
-                }}
-                dropdownPosition="bottom"
-                containerStyle={styles.dropdownListContainer}
-                itemTextStyle={styles.itemTextStyle}
-                itemContainerStyle={styles.itemContainerStyle}
-                activeColor="#f0f0f0"
-            />
-        </View>
+        <Dropdown
+            style={styles.dropdown}
+            placeholderStyle={styles.placeholderStyle}
+            selectedTextStyle={styles.selectedTextStyle}
+            data={sortOptions}
+            maxHeight={300}
+            labelField="label"
+            valueField="value"
+            placeholder="정렬 선택"
+            value={selectedSort}
+            onChange={(item) => {
+                onSelectSort(item.value);
+            }}
+            dropdownPosition="bottom"
+            containerStyle={styles.dropdownListContainer}
+            itemTextStyle={styles.itemTextStyle}
+            itemContainerStyle={styles.itemContainerStyle}
+            activeColor="#f0f0f0"
+        />
     );
 };
 
 const styles = StyleSheet.create({
-    container: {
-        minWidth: 120,
-    },
     dropdown: {
-        height: 40,
+        width: 120,
         borderColor: '#e0e0e0',
         borderWidth: 1,
         borderRadius: 16,
+        paddingVertical: 10,
         paddingHorizontal: 12,
         backgroundColor: 'white',
     },

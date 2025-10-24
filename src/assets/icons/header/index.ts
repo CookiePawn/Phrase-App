@@ -1,0 +1,1 @@
+export { default as NOTIFICATION } from './notification.svg';

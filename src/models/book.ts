@@ -10,3 +10,11 @@ export type Book = {
     totalSteps?: number;
     content?: Array<{ id: number; text: string; requiredSteps: number }>;
 };
+
+export interface CurrentReadingInfo {
+    title: string;
+    author: string;
+    unlockedSteps: number;
+    totalSteps: number;
+    percentage: number;
+}
