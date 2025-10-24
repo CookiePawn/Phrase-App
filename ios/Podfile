@@ -21,7 +21,7 @@ project 'templatecli', {
   'ProductionRelease' => :release,
 }
 
-target 'templateCli' do
+target 'phrase' do
   config = use_native_modules!
 
   use_react_native!(

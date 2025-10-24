@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C80B921A6F3F58F76C31292 /* libPods-templateCli.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-templateCli.a */; };
+		0C80B921A6F3F58F76C31292 /* libPods-phrase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-phrase.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2F894C86979C01DD008978F8 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
@@ -15,19 +15,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13B07F961A680F5B00A75B9A /* templateCli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = templateCli.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = templateCli/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = templateCli/Info.plist; sourceTree = "<group>"; };
-		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = templateCli/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		2850603639232A20E76028FB /* Pods-templateCli.developmentrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateCli.developmentrelease.xcconfig"; path = "Target Support Files/Pods-templateCli/Pods-templateCli.developmentrelease.xcconfig"; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-templateCli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateCli.debug.xcconfig"; path = "Target Support Files/Pods-templateCli/Pods-templateCli.debug.xcconfig"; sourceTree = "<group>"; };
-		4FF45C93208B4E0860ABECCB /* Pods-templateCli.developmentdebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateCli.developmentdebug.xcconfig"; path = "Target Support Files/Pods-templateCli/Pods-templateCli.developmentdebug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-templateCli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateCli.release.xcconfig"; path = "Target Support Files/Pods-templateCli/Pods-templateCli.release.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-templateCli.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-templateCli.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = templateCli/AppDelegate.swift; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = templateCli/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		92BBD9F6BB0B9BCE1A2303A7 /* Pods-templateCli.productionrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateCli.productionrelease.xcconfig"; path = "Target Support Files/Pods-templateCli/Pods-templateCli.productionrelease.xcconfig"; sourceTree = "<group>"; };
-		DA38362DEAD431DE616C335A /* Pods-templateCli.productiondebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-templateCli.productiondebug.xcconfig"; path = "Target Support Files/Pods-templateCli/Pods-templateCli.productiondebug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* phrase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "phrase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "phrase/Images.xcassets"; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "phrase/Info.plist"; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = phrase/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2850603639232A20E76028FB /* Pods-phrase.developmentrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phrase.developmentrelease.xcconfig"; path = "Target Support Files/Pods-phrase/Pods-phrase.developmentrelease.xcconfig"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-phrase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phrase.debug.xcconfig"; path = "Target Support Files/Pods-phrase/Pods-phrase.debug.xcconfig"; sourceTree = "<group>"; };
+		4FF45C93208B4E0860ABECCB /* Pods-phrase.developmentdebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phrase.developmentdebug.xcconfig"; path = "Target Support Files/Pods-phrase/Pods-phrase.developmentdebug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-phrase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phrase.release.xcconfig"; path = "Target Support Files/Pods-phrase/Pods-phrase.release.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-phrase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-phrase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = phrase/AppDelegate.swift; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "phrase/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		92BBD9F6BB0B9BCE1A2303A7 /* Pods-phrase.productionrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phrase.productionrelease.xcconfig"; path = "Target Support Files/Pods-phrase/Pods-phrase.productionrelease.xcconfig"; sourceTree = "<group>"; };
+		DA38362DEAD431DE616C335A /* Pods-phrase.productiondebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phrase.productiondebug.xcconfig"; path = "Target Support Files/Pods-phrase/Pods-phrase.productiondebug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -36,14 +36,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-templateCli.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-phrase.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B07FAE1A68108700A75B9A /* templateCli */ = {
+		13B07FAE1A68108700A75B9A /* phrase */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -52,14 +52,14 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 			);
-			name = templateCli;
+			name = "phrase";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-templateCli.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-phrase.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* templateCli */,
+				13B07FAE1A68108700A75B9A /* phrase */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
@@ -88,7 +88,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* templateCli.app */,
+				13B07F961A680F5B00A75B9A /* phrase.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,12 +96,12 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-templateCli.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-templateCli.release.xcconfig */,
-				DA38362DEAD431DE616C335A /* Pods-templateCli.productiondebug.xcconfig */,
-				4FF45C93208B4E0860ABECCB /* Pods-templateCli.developmentdebug.xcconfig */,
-				92BBD9F6BB0B9BCE1A2303A7 /* Pods-templateCli.productionrelease.xcconfig */,
-				2850603639232A20E76028FB /* Pods-templateCli.developmentrelease.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-phrase.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-phrase.release.xcconfig */,
+				DA38362DEAD431DE616C335A /* Pods-phrase.productiondebug.xcconfig */,
+				4FF45C93208B4E0860ABECCB /* Pods-phrase.developmentdebug.xcconfig */,
+				92BBD9F6BB0B9BCE1A2303A7 /* Pods-phrase.productionrelease.xcconfig */,
+				2850603639232A20E76028FB /* Pods-phrase.developmentrelease.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -109,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* templateCli */ = {
+		13B07F861A680F5B00A75B9A /* phrase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "templateCli" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "phrase" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -125,9 +125,9 @@
 			);
 			dependencies = (
 			);
-			name = templateCli;
-			productName = templateCli;
-			productReference = 13B07F961A680F5B00A75B9A /* templateCli.app */;
+			name = "phrase";
+			productName = "phrase";
+			productReference = 13B07F961A680F5B00A75B9A /* phrase.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* templateCli */,
+				13B07F861A680F5B00A75B9A /* phrase */,
 			);
 		};
 /* End PBXProject section */
@@ -197,15 +197,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-templateCli/Pods-templateCli-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-phrase/Pods-phrase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-templateCli/Pods-templateCli-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-phrase/Pods-phrase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-templateCli/Pods-templateCli-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-phrase/Pods-phrase-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
@@ -223,7 +223,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-templateCli-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-phrase-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -236,15 +236,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-templateCli/Pods-templateCli-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-phrase/Pods-phrase-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-templateCli/Pods-templateCli-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-phrase/Pods-phrase-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-templateCli/Pods-templateCli-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-phrase/Pods-phrase-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -343,7 +343,7 @@
 		};
 		1AB623992D55C2B900B3B21E /* DevelopmentDebug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FF45C93208B4E0860ABECCB /* Pods-templateCli.developmentdebug.xcconfig */;
+			baseConfigurationReference = 4FF45C93208B4E0860ABECCB /* Pods-phrase.developmentdebug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_IDENTIFIER = com.templatecli.dev;
@@ -352,7 +352,8 @@
 				DEVELOPMENT_TEAM = C272Q36G43;
 				DISPLAY_NAME = "TemplateCli DEV";
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = templateCli/Info.plist;
+				INFOPLIST_FILE = "phrase/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "phrase";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -365,7 +366,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER)";
-				PRODUCT_NAME = templateCli;
+				PRODUCT_NAME = "phrase";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -446,7 +447,7 @@
 		};
 		1AB6239B2D55C2C200B3B21E /* DevelopmentRelease */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2850603639232A20E76028FB /* Pods-templateCli.developmentrelease.xcconfig */;
+			baseConfigurationReference = 2850603639232A20E76028FB /* Pods-phrase.developmentrelease.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_IDENTIFIER = com.templatecli.dev;
@@ -454,7 +455,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C272Q36G43;
 				DISPLAY_NAME = "TemplateCli DEV";
-				INFOPLIST_FILE = templateCli/Info.plist;
+				INFOPLIST_FILE = "phrase/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "phrase";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,7 +469,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER)";
-				PRODUCT_NAME = templateCli;
+				PRODUCT_NAME = "phrase";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -555,7 +557,7 @@
 		};
 		1AB6239D2D55C2D400B3B21E /* ProductionDebug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA38362DEAD431DE616C335A /* Pods-templateCli.productiondebug.xcconfig */;
+			baseConfigurationReference = DA38362DEAD431DE616C335A /* Pods-phrase.productiondebug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_IDENTIFIER = com.templatecli;
@@ -564,7 +566,8 @@
 				DEVELOPMENT_TEAM = C272Q36G43;
 				DISPLAY_NAME = TemplateCli;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = templateCli/Info.plist;
+				INFOPLIST_FILE = "phrase/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "phrase";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -577,7 +580,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER)";
-				PRODUCT_NAME = templateCli;
+				PRODUCT_NAME = "phrase";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -658,7 +661,7 @@
 		};
 		1AB6239F2D55C2DB00B3B21E /* ProductionRelease */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92BBD9F6BB0B9BCE1A2303A7 /* Pods-templateCli.productionrelease.xcconfig */;
+			baseConfigurationReference = 92BBD9F6BB0B9BCE1A2303A7 /* Pods-phrase.productionrelease.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_IDENTIFIER = com.templatecli;
@@ -666,7 +669,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C272Q36G43;
 				DISPLAY_NAME = TemplateCli;
-				INFOPLIST_FILE = templateCli/Info.plist;
+				INFOPLIST_FILE = "phrase/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "phrase";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -679,7 +683,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER)";
-				PRODUCT_NAME = templateCli;
+				PRODUCT_NAME = "phrase";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -688,7 +692,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "templateCli" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "phrase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AB6239D2D55C2D400B3B21E /* ProductionDebug */,

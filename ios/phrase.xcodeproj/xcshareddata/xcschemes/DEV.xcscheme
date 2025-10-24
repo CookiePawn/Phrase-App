@@ -54,8 +54,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "templateCli.app"
-            BlueprintName = "templateCli"
+            BuildableName = "phrase.app"
+            BlueprintName = "phrase"
             ReferencedContainer = "container:templatecli.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
